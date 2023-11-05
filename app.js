@@ -3,7 +3,9 @@ import morgan from "morgan";
 import routes from "./routes/routes.js";
 import cors from "cors";
 import path, { dirname } from 'path';
-
+import {fileURLToPath} from 'url';
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 const app = express();
 
 //middlewares
