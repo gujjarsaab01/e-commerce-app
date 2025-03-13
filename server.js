@@ -1,7 +1,7 @@
-import pkg from "colors";
 import dotenv from "dotenv";
 import initDb from "./config/db.js";
 import app from "./app.js";
+
 
 //configure env
 dotenv.config();
